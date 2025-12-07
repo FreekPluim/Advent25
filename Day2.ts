@@ -55,7 +55,7 @@ function part1(){
 function part2()
 {
 
-    const file = fs.readFileSync("./Input/input_Day2.txt", 'utf-8')
+    const file = fs.readFileSync("./Input/input_Day2PAUL.txt", 'utf-8')
     const ranges: string[] = file.split(",");
     let answerCount = 0;
 
